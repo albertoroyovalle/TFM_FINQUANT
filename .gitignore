@@ -1,0 +1,17 @@
+# Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux,windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,linux,windows,visualstudiocode
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+# Ignorar todo por defecto
+*
+
+# permitir que Git recorra las carpetas (si en el futuro metes subcarpetas)
+!*/
+
+# permitir unicamente los notebooks de Jupyter
+!*.ipynb
+
+# permitir que este propio archivo se suba
+!.gitignore
